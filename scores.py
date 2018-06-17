@@ -8,12 +8,13 @@ df = pd.read_csv('football_games.csv')
 
 ########### Questions to follow #############
 
-# Find the average score any team has ever made
+# Find the average score any team has ever made 2002 - 2017
 df1 = pd.concat([df['home_team_points'], df['away_team_points']])
 #print(df1)
 print(df1.mean())
 
 # Find the average score of each team
+
 
 # Find the average score of each team by year
 
